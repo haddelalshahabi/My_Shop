@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{DE98811F-052B-4525-9C43-96559A849AE4}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MyShop PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyShop/appsettings.json">
+    <Files>
+      <File FileName="MyShop/Views/Order/Table.cshtml" />
+      <File FileName="MyShop/ViewModels/CreateOrderItemViewModel.cs" />
+      <File FileName="MyShop/Controllers/OrderController.cs" />
+      <File FileName="MyShop/Views/Order/CreateOrderItem.cshtml" />
+      <File FileName="MyShop/Views/Shared/_Layout.cshtml" />
+      <File FileName="MyShop/DAL/IItemRepository.cs" />
+      <File FileName="MyShop/DAL/ItemRepository.cs" />
+      <File FileName="MyShop/Controllers/ItemController.cs" />
+      <File FileName="MyShop/Views/Item/Table.cshtml" />
+      <File FileName="MyShop/Program.cs" />
+      <File FileName="MyShop/appsettings.json" Line="12" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyShop" expanded="True">
+            <Node name="MyShop" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="DAL" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Order" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

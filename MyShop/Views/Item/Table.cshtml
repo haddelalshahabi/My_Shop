@@ -1,0 +1,8 @@
+﻿@model ItemListViewModel
+
+<h1>List of Shop Items (@Model.CurrentViewName View)</h1>
+<a href="/Item/Grid">Grid View</a>
+
+<partial name="_ItemTable" model="Model.Items" />
+
+@*<a class="btn btn-primary" asp-action="OrderConsole">Console Output</a>*@
