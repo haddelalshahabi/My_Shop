@@ -1,0 +1,11 @@
+2023-09-16 19:04:25.743 +02:00 [Information] Applying migration '"20230916165550_IdentityAdded"'.
+2023-09-16 19:04:25.798 +02:00 [Error] Failed executing DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"OrderItems\" (
+    \"OrderItemId\" INTEGER NOT NULL CONSTRAINT \"PK_OrderItems\" PRIMARY KEY AUTOINCREMENT,
+    \"ItemId\" INTEGER NOT NULL,
+    \"Quantity\" INTEGER NOT NULL,
+    \"OrderId\" INTEGER NOT NULL,
+    \"OrderItemPrice\" TEXT NOT NULL,
+    CONSTRAINT \"FK_OrderItems_Items_ItemId\" FOREIGN KEY (\"ItemId\") REFERENCES \"Items\" (\"ItemId\") ON DELETE CASCADE,
+    CONSTRAINT \"FK_OrderItems_Orders_OrderId\" FOREIGN KEY (\"OrderId\") REFERENCES \"Orders\" (\"OrderId\") ON DELETE CASCADE
+);"

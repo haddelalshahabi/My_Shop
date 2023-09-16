@@ -3,6 +3,7 @@ using MyShop.Models;
 using Microsoft.EntityFrameworkCore;
 using MyShop.ViewModels;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MyShop.Controllers;
 
@@ -21,6 +22,7 @@ public class OrderController : Controller
         return View(orders);
     }
 
+    [Authorize]
     [HttpGet]
     public async Task<IActionResult> CreateOrderItem()
     {
@@ -39,19 +41,20 @@ public class OrderController : Controller
             OrderSelectList = orders.Select(order => new SelectListItem
             {
                 Value = order.OrderId.ToString(),
-                Text = "Order" + order.OrderId.ToString() + ", Date: " + order.OrderDate + ", Customer: " + order.Customer.Name
+                Text = "Order" + order.OrderId.ToString() + ", Date: " + order.OrderDate + ", Customer: " + order.Customer?.Name ?? "Customer not found"
             }).ToList(),
         };
         return View(createOrderItemViewModel);
     }
 
+    [Authorize]
     [HttpPost]
     public async Task<IActionResult> CreateOrderItem(OrderItem orderItem)
     {
         try
         {
-            var newItem = _itemDbContext.Items.Find(orderItem.ItemId);
-            var newOrder = _itemDbContext.Orders.Find(orderItem.OrderId);
+            var newItem = await _itemDbContext.Items.FindAsync(orderItem.ItemId);
+            var newOrder = await _itemDbContext.Orders.FindAsync(orderItem.OrderId);
 
             if (newItem == null || newOrder == null)
             {
@@ -67,6 +70,30 @@ public class OrderController : Controller
                 Order = newOrder,
             };
             newOrderItem.OrderItemPrice = orderItem.Quantity * newOrderItem.Item.Price;
+
+            if (newOrderItem.Item == null || newOrderItem.Order == null || newOrderItem.Quantity <= 0)
+            {
+                var items = await _itemDbContext.Items.ToListAsync();
+                var orders = await _itemDbContext.Orders.ToListAsync();
+                var createOrderItemViewModel = new CreateOrderItemViewModel
+                {
+                    OrderItem = orderItem,
+
+                    ItemSelectList = items.Select(item => new SelectListItem
+                    {
+                        Value = item.ItemId.ToString(),
+                        Text = item.ItemId.ToString() + ": " + item.Name
+                    }).ToList(),
+
+                    OrderSelectList = orders.Select(order => new SelectListItem
+                    {
+                        Value = order.OrderId.ToString(),
+                        Text = "Order" + order.OrderId.ToString() + ", Date: " + order.OrderDate + ", Customer: " + order.Customer?.Name ?? "Customer not found"
+                    }).ToList(),
+                };
+
+                return View(createOrderItemViewModel);
+            }
 
             _itemDbContext.OrderItems.Add(newOrderItem);
             await _itemDbContext.SaveChangesAsync();

@@ -1,0 +1,65 @@
+2023-09-16 21:31:49.915 +02:00 [Information] User profile is available. Using '"/Users/haddelalshahabi/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2023-09-16 21:31:50.196 +02:00 [Information] Now listening on: "https://localhost:7250"
+2023-09-16 21:31:50.197 +02:00 [Information] Now listening on: "http://localhost:5022"
+2023-09-16 21:31:50.200 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-09-16 21:31:50.200 +02:00 [Information] Hosting environment: "Development"
+2023-09-16 21:31:50.201 +02:00 [Information] Content root path: "/Users/haddelalshahabi/WebapplikasjonerProjects/MyShop/MyShop"
+2023-09-16 21:31:51.515 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/ - -
+2023-09-16 21:31:51.653 +02:00 [Information] Executing endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 21:31:51.656 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MyShop.Controllers.HomeController" ("MyShop").
+2023-09-16 21:31:51.660 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-09-16 21:31:51.697 +02:00 [Information] Executed ViewResult - view "Index" executed in 37.3994ms.
+2023-09-16 21:31:51.697 +02:00 [Information] Executed action "MyShop.Controllers.HomeController.Index (MyShop)" in 40.6313ms
+2023-09-16 21:31:51.697 +02:00 [Information] Executed endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 21:31:51.700 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/ - - - 200 - text/html;+charset=utf-8 185.7966ms
+2023-09-16 21:31:55.231 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:7250/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225
+2023-09-16 21:31:55.326 +02:00 [Information] Executing endpoint '"/Account/Logout"'
+2023-09-16 21:31:55.343 +02:00 [Information] Route matched with "{page = \"/Account/Logout\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Logout"
+2023-09-16 21:31:55.356 +02:00 [Information] Executing handler method "MyShop.Areas.Identity.Pages.Account.LogoutModel.OnPost" - ModelState is Valid
+2023-09-16 21:31:55.358 +02:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2023-09-16 21:31:55.359 +02:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-09-16 21:31:55.359 +02:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2023-09-16 21:31:55.360 +02:00 [Information] User logged out.
+2023-09-16 21:31:55.360 +02:00 [Information] Executed handler method "OnPost", returned result "Microsoft.AspNetCore.Mvc.LocalRedirectResult".
+2023-09-16 21:31:55.361 +02:00 [Information] Executing LocalRedirectResult, redirecting to "/".
+2023-09-16 21:31:55.361 +02:00 [Information] Executed page "/Account/Logout" in 17.3221ms
+2023-09-16 21:31:55.361 +02:00 [Information] Executed endpoint '"/Account/Logout"'
+2023-09-16 21:31:55.361 +02:00 [Information] Request finished HTTP/1.1 POST https://localhost:7250/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225 - 302 0 - 130.5082ms
+2023-09-16 21:31:55.362 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/ - -
+2023-09-16 21:31:55.363 +02:00 [Information] Executing endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 21:31:55.363 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MyShop.Controllers.HomeController" ("MyShop").
+2023-09-16 21:31:55.363 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-09-16 21:31:55.367 +02:00 [Information] Executed ViewResult - view "Index" executed in 3.9133ms.
+2023-09-16 21:31:55.367 +02:00 [Information] Executed action "MyShop.Controllers.HomeController.Index (MyShop)" in 4.0908ms
+2023-09-16 21:31:55.367 +02:00 [Information] Executed endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 21:31:55.367 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/ - - - 200 - text/html;+charset=utf-8 4.6136ms
+2023-09-16 21:31:58.560 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Identity/Account/Login - -
+2023-09-16 21:31:58.568 +02:00 [Information] Executing endpoint '"/Account/Login"'
+2023-09-16 21:31:58.579 +02:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-09-16 21:31:58.589 +02:00 [Information] Executing handler method "MyShop.Areas.Identity.Pages.Account.LoginModel.OnGetAsync" - ModelState is Valid
+2023-09-16 21:31:58.590 +02:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-09-16 21:31:58.590 +02:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-09-16 21:31:58.592 +02:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-09-16 21:31:58.592 +02:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-09-16 21:31:58.616 +02:00 [Information] Executed page "/Account/Login" in 37.46ms
+2023-09-16 21:31:58.616 +02:00 [Information] Executed endpoint '"/Account/Login"'
+2023-09-16 21:31:58.616 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 56.3775ms
+2023-09-16 21:32:01.229 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:7250/Identity/Account/Login application/x-www-form-urlencoded 279
+2023-09-16 21:32:01.230 +02:00 [Information] Executing endpoint '"/Account/Login"'
+2023-09-16 21:32:01.231 +02:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-09-16 21:32:01.244 +02:00 [Information] Executing handler method "MyShop.Areas.Identity.Pages.Account.LoginModel.OnPostAsync" - ModelState is Valid
+2023-09-16 21:32:01.339 +02:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2023-09-16 21:32:01.340 +02:00 [Information] User logged in.
+2023-09-16 21:32:01.340 +02:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.LocalRedirectResult".
+2023-09-16 21:32:01.340 +02:00 [Information] Executing LocalRedirectResult, redirecting to "/".
+2023-09-16 21:32:01.340 +02:00 [Information] Executed page "/Account/Login" in 108.9776ms
+2023-09-16 21:32:01.340 +02:00 [Information] Executed endpoint '"/Account/Login"'
+2023-09-16 21:32:01.340 +02:00 [Information] Request finished HTTP/1.1 POST https://localhost:7250/Identity/Account/Login application/x-www-form-urlencoded 279 - 302 0 - 111.0306ms
+2023-09-16 21:32:01.345 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/ - -
+2023-09-16 21:32:01.348 +02:00 [Information] Executing endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 21:32:01.351 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MyShop.Controllers.HomeController" ("MyShop").
+2023-09-16 21:32:01.352 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-09-16 21:32:01.352 +02:00 [Information] Executed ViewResult - view "Index" executed in 0.7152ms.
+2023-09-16 21:32:01.356 +02:00 [Information] Executed action "MyShop.Controllers.HomeController.Index (MyShop)" in 4.322ms
+2023-09-16 21:32:01.356 +02:00 [Information] Executed endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 21:32:01.356 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/ - - - 200 - text/html;+charset=utf-8 11.0029ms

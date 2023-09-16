@@ -1,0 +1,54 @@
+2023-09-16 20:21:41.520 +02:00 [Information] User profile is available. Using '"/Users/haddelalshahabi/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2023-09-16 20:21:41.818 +02:00 [Information] Now listening on: "https://localhost:7250"
+2023-09-16 20:21:41.819 +02:00 [Information] Now listening on: "http://localhost:5022"
+2023-09-16 20:21:41.822 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-09-16 20:21:41.823 +02:00 [Information] Hosting environment: "Development"
+2023-09-16 20:21:41.824 +02:00 [Information] Content root path: "/Users/haddelalshahabi/WebapplikasjonerProjects/MyShop/MyShop"
+2023-09-16 20:21:42.986 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/ - -
+2023-09-16 20:21:43.022 +02:00 [Information] Executing endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 20:21:43.027 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MyShop.Controllers.HomeController" ("MyShop").
+2023-09-16 20:21:43.032 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-09-16 20:21:43.071 +02:00 [Information] Executed ViewResult - view "Index" executed in 40.345ms.
+2023-09-16 20:21:43.072 +02:00 [Information] Executed action "MyShop.Controllers.HomeController.Index (MyShop)" in 44.3493ms
+2023-09-16 20:21:43.072 +02:00 [Information] Executed endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 20:21:43.076 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/ - - - 200 - text/html;+charset=utf-8 90.7111ms
+2023-09-16 20:21:46.357 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/ - -
+2023-09-16 20:21:46.363 +02:00 [Information] Executing endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 20:21:46.364 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MyShop.Controllers.HomeController" ("MyShop").
+2023-09-16 20:21:46.364 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-09-16 20:21:46.369 +02:00 [Information] Executed ViewResult - view "Index" executed in 4.9022ms.
+2023-09-16 20:21:46.369 +02:00 [Information] Executed action "MyShop.Controllers.HomeController.Index (MyShop)" in 5.6342ms
+2023-09-16 20:21:46.369 +02:00 [Information] Executed endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 20:21:46.370 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/ - - - 200 - text/html;+charset=utf-8 13.1760ms
+2023-09-16 20:21:46.818 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Item/Table - -
+2023-09-16 20:21:46.833 +02:00 [Information] Executing endpoint '"MyShop.Controllers.ItemController.Table (MyShop)"'
+2023-09-16 20:21:46.840 +02:00 [Information] Route matched with "{action = \"Table\", controller = \"Item\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table()" on controller "MyShop.Controllers.ItemController" ("MyShop").
+2023-09-16 20:21:46.875 +02:00 [Information] Executing ViewResult, running view "Table".
+2023-09-16 20:21:46.881 +02:00 [Information] Executed ViewResult - view "Table" executed in 7.3975ms.
+2023-09-16 20:21:46.882 +02:00 [Information] Executed action "MyShop.Controllers.ItemController.Table (MyShop)" in 40.9037ms
+2023-09-16 20:21:46.882 +02:00 [Information] Executed endpoint '"MyShop.Controllers.ItemController.Table (MyShop)"'
+2023-09-16 20:21:46.883 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Item/Table - - - 200 - text/html;+charset=utf-8 64.9206ms
+2023-09-16 20:21:47.750 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Customer/Table - -
+2023-09-16 20:21:47.752 +02:00 [Information] Executing endpoint '"MyShop.Controllers.CustomerController.Table (MyShop)"'
+2023-09-16 20:21:47.757 +02:00 [Information] Route matched with "{action = \"Table\", controller = \"Customer\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table()" on controller "MyShop.Controllers.CustomerController" ("MyShop").
+2023-09-16 20:21:47.804 +02:00 [Information] Executing ViewResult, running view "Table".
+2023-09-16 20:21:47.828 +02:00 [Information] Executed ViewResult - view "Table" executed in 24.9046ms.
+2023-09-16 20:21:47.828 +02:00 [Information] Executed action "MyShop.Controllers.CustomerController.Table (MyShop)" in 70.566ms
+2023-09-16 20:21:47.828 +02:00 [Information] Executed endpoint '"MyShop.Controllers.CustomerController.Table (MyShop)"'
+2023-09-16 20:21:47.829 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Customer/Table - - - 200 - text/html;+charset=utf-8 78.9305ms
+2023-09-16 20:21:48.833 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Customer/Table - -
+2023-09-16 20:21:48.834 +02:00 [Information] Executing endpoint '"MyShop.Controllers.CustomerController.Table (MyShop)"'
+2023-09-16 20:21:48.834 +02:00 [Information] Route matched with "{action = \"Table\", controller = \"Customer\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table()" on controller "MyShop.Controllers.CustomerController" ("MyShop").
+2023-09-16 20:21:48.838 +02:00 [Information] Executing ViewResult, running view "Table".
+2023-09-16 20:21:48.846 +02:00 [Information] Executed ViewResult - view "Table" executed in 8.1339ms.
+2023-09-16 20:21:48.846 +02:00 [Information] Executed action "MyShop.Controllers.CustomerController.Table (MyShop)" in 11.2417ms
+2023-09-16 20:21:48.846 +02:00 [Information] Executed endpoint '"MyShop.Controllers.CustomerController.Table (MyShop)"'
+2023-09-16 20:21:48.846 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Customer/Table - - - 200 - text/html;+charset=utf-8 13.4010ms
+2023-09-16 20:21:49.381 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Order/Table - -
+2023-09-16 20:21:49.382 +02:00 [Information] Executing endpoint '"MyShop.Controllers.OrderController.Table (MyShop)"'
+2023-09-16 20:21:49.385 +02:00 [Information] Route matched with "{action = \"Table\", controller = \"Order\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table()" on controller "MyShop.Controllers.OrderController" ("MyShop").
+2023-09-16 20:21:49.394 +02:00 [Information] Executing ViewResult, running view "Table".
+2023-09-16 20:21:49.425 +02:00 [Information] Executed ViewResult - view "Table" executed in 31.1ms.
+2023-09-16 20:21:49.425 +02:00 [Information] Executed action "MyShop.Controllers.OrderController.Table (MyShop)" in 39.4413ms
+2023-09-16 20:21:49.425 +02:00 [Information] Executed endpoint '"MyShop.Controllers.OrderController.Table (MyShop)"'
+2023-09-16 20:21:49.425 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Order/Table - - - 200 - text/html;+charset=utf-8 44.3465ms

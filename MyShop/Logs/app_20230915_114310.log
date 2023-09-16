@@ -1,0 +1,14 @@
+2023-09-15 11:43:11.085 +02:00 [Information] User profile is available. Using '"/Users/haddelalshahabi/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2023-09-15 11:43:11.273 +02:00 [Information] Now listening on: "https://localhost:7250"
+2023-09-15 11:43:11.274 +02:00 [Information] Now listening on: "http://localhost:5022"
+2023-09-15 11:43:11.276 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-09-15 11:43:11.276 +02:00 [Information] Hosting environment: "Development"
+2023-09-15 11:43:11.277 +02:00 [Information] Content root path: "/Users/haddelalshahabi/WebapplikasjonerProjects/MyShop/MyShop"
+2023-09-15 11:43:12.435 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/ - -
+2023-09-15 11:43:12.452 +02:00 [Information] Executing endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-15 11:43:12.457 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MyShop.Controllers.HomeController" ("MyShop").
+2023-09-15 11:43:12.463 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-09-15 11:43:12.495 +02:00 [Information] Executed ViewResult - view "Index" executed in 33.276ms.
+2023-09-15 11:43:12.496 +02:00 [Information] Executed action "MyShop.Controllers.HomeController.Index (MyShop)" in 38.5595ms
+2023-09-15 11:43:12.496 +02:00 [Information] Executed endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-15 11:43:12.498 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/ - - - 200 - text/html;+charset=utf-8 63.6137ms

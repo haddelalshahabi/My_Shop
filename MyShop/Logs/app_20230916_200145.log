@@ -1,0 +1,108 @@
+2023-09-16 20:01:46.250 +02:00 [Information] User profile is available. Using '"/Users/haddelalshahabi/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2023-09-16 20:01:46.540 +02:00 [Information] Now listening on: "https://localhost:7250"
+2023-09-16 20:01:46.561 +02:00 [Information] Now listening on: "http://localhost:5022"
+2023-09-16 20:01:46.563 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-09-16 20:01:46.564 +02:00 [Information] Hosting environment: "Development"
+2023-09-16 20:01:46.565 +02:00 [Information] Content root path: "/Users/haddelalshahabi/WebapplikasjonerProjects/MyShop/MyShop"
+2023-09-16 20:01:47.833 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/ - -
+2023-09-16 20:01:47.860 +02:00 [Information] Executing endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 20:01:47.864 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MyShop.Controllers.HomeController" ("MyShop").
+2023-09-16 20:01:47.868 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-09-16 20:01:47.913 +02:00 [Information] Executed ViewResult - view "Index" executed in 45.7327ms.
+2023-09-16 20:01:47.914 +02:00 [Information] Executed action "MyShop.Controllers.HomeController.Index (MyShop)" in 49.7679ms
+2023-09-16 20:01:47.914 +02:00 [Information] Executed endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 20:01:47.917 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/ - - - 200 - text/html;+charset=utf-8 84.6644ms
+2023-09-16 20:01:47.944 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/lib/jquery/jquery.js - -
+2023-09-16 20:01:47.945 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/lib/bootstrap/js/bootstrap.js - -
+2023-09-16 20:01:48.117 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/lib/jquery-validate/jquery.validate.js - -
+2023-09-16 20:01:48.117 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-09-16 20:01:48.156 +02:00 [Information] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2023-09-16 20:01:48.156 +02:00 [Information] The file "/lib/jquery-validate/jquery.validate.js" was not modified
+2023-09-16 20:01:48.157 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/lib/jquery-validate/jquery.validate.js - - - 304 - text/javascript 40.4770ms
+2023-09-16 20:01:48.157 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 304 - text/javascript 40.1637ms
+2023-09-16 20:01:48.194 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"/Users/haddelalshahabi/WebapplikasjonerProjects/MyShop/MyShop/wwwroot/lib/bootstrap/js/bootstrap.js"'
+2023-09-16 20:01:48.194 +02:00 [Information] Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"/Users/haddelalshahabi/WebapplikasjonerProjects/MyShop/MyShop/wwwroot/lib/jquery/jquery.js"'
+2023-09-16 20:01:48.194 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/lib/jquery/jquery.js - - - 200 284996 text/javascript 249.8634ms
+2023-09-16 20:01:48.194 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/lib/bootstrap/js/bootstrap.js - - - 200 145302 text/javascript 248.9586ms
+2023-09-16 20:01:48.240 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/images/pizza.jpg - -
+2023-09-16 20:01:48.266 +02:00 [Information] Sending file. Request path: '"/images/pizza.jpg"'. Physical path: '"/Users/haddelalshahabi/WebapplikasjonerProjects/MyShop/MyShop/wwwroot/images/pizza.jpg"'
+2023-09-16 20:01:48.266 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/images/pizza.jpg - - - 200 127421 image/jpeg 26.4510ms
+2023-09-16 20:02:34.573 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Identity/Account/Register - -
+2023-09-16 20:02:34.630 +02:00 [Information] Executing endpoint '"/Account/Register"'
+2023-09-16 20:02:34.651 +02:00 [Information] Route matched with "{page = \"/Account/Register\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Register"
+2023-09-16 20:02:34.660 +02:00 [Information] Executing handler method "Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.RegisterModel.OnGetAsync" - ModelState is Valid
+2023-09-16 20:02:34.662 +02:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-09-16 20:02:34.664 +02:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-09-16 20:02:34.664 +02:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-09-16 20:02:34.757 +02:00 [Information] Executed page "/Account/Register" in 105.3316ms
+2023-09-16 20:02:34.757 +02:00 [Information] Executed endpoint '"/Account/Register"'
+2023-09-16 20:02:34.757 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Identity/Account/Register - - - 200 - text/html;+charset=utf-8 183.9916ms
+2023-09-16 20:02:34.764 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Identity/lib/bootstrap/dist/css/bootstrap.css - -
+2023-09-16 20:02:34.791 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Identity/css/site.css - -
+2023-09-16 20:02:34.791 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Identity/lib/jquery/dist/jquery.js - -
+2023-09-16 20:02:34.940 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js - -
+2023-09-16 20:02:34.962 +02:00 [Information] Sending file. Request path: '"/Identity/css/site.css"'. Physical path: '"/Users/haddelalshahabi/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.20/staticwebassets/V5/css/site.css"'
+2023-09-16 20:02:34.989 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Identity/css/site.css - - - 200 1378 text/css 197.9197ms
+2023-09-16 20:02:35.055 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Identity/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-09-16 20:02:35.130 +02:00 [Information] Sending file. Request path: '"/Identity/js/site.js"'. Physical path: '"/Users/haddelalshahabi/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.20/staticwebassets/V5/js/site.js"'
+2023-09-16 20:02:35.131 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Identity/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 75.4015ms
+2023-09-16 20:02:35.234 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Identity/lib/jquery-validation/dist/jquery.validate.js - -
+2023-09-16 20:02:35.303 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-09-16 20:02:35.304 +02:00 [Information] Sending file. Request path: '"/Identity/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"/Users/haddelalshahabi/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.20/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js"'
+2023-09-16 20:02:35.330 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Identity/lib/jquery-validation/dist/jquery.validate.js - - - 200 48676 text/javascript 70.8819ms
+2023-09-16 20:02:35.355 +02:00 [Information] Sending file. Request path: '"/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"/Users/haddelalshahabi/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.20/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'
+2023-09-16 20:02:35.357 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19366 text/javascript 98.4934ms
+2023-09-16 20:02:35.384 +02:00 [Information] Sending file. Request path: '"/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js"'. Physical path: '"/Users/haddelalshahabi/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.20/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js"'
+2023-09-16 20:02:35.384 +02:00 [Information] Sending file. Request path: '"/Identity/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"/Users/haddelalshahabi/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.20/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css"'
+2023-09-16 20:02:35.384 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 200 208492 text/javascript 491.1394ms
+2023-09-16 20:02:35.384 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Identity/lib/bootstrap/dist/css/bootstrap.css - - - 200 204136 text/css 619.9177ms
+2023-09-16 20:02:35.476 +02:00 [Information] Sending file. Request path: '"/Identity/lib/jquery/dist/jquery.js"'. Physical path: '"/Users/haddelalshahabi/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.20/staticwebassets/V5/lib/jquery/dist/jquery.js"'
+2023-09-16 20:02:35.477 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Identity/lib/jquery/dist/jquery.js - - - 200 287630 text/javascript 685.8724ms
+2023-09-16 20:07:20.972 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/ - -
+2023-09-16 20:07:20.975 +02:00 [Information] Executing endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 20:07:20.975 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MyShop.Controllers.HomeController" ("MyShop").
+2023-09-16 20:07:20.976 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-09-16 20:07:20.992 +02:00 [Information] Executed ViewResult - view "Index" executed in 16.636ms.
+2023-09-16 20:07:20.992 +02:00 [Information] Executed action "MyShop.Controllers.HomeController.Index (MyShop)" in 17.2419ms
+2023-09-16 20:07:20.993 +02:00 [Information] Executed endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 20:07:20.993 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/ - - - 200 - text/html;+charset=utf-8 44.9409ms
+2023-09-16 20:07:22.951 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Identity/Account/Login - -
+2023-09-16 20:07:22.958 +02:00 [Information] Executing endpoint '"/Account/Login"'
+2023-09-16 20:07:22.965 +02:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-09-16 20:07:22.967 +02:00 [Information] Executing handler method "Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync" - ModelState is Valid
+2023-09-16 20:07:22.974 +02:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-09-16 20:07:22.975 +02:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-09-16 20:07:22.975 +02:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-09-16 20:07:22.975 +02:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-09-16 20:07:22.990 +02:00 [Information] Executed page "/Account/Login" in 25.5427ms
+2023-09-16 20:07:22.990 +02:00 [Information] Executed endpoint '"/Account/Login"'
+2023-09-16 20:07:22.991 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 39.2389ms
+2023-09-16 20:07:25.945 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/Identity/Account/Register - -
+2023-09-16 20:07:25.945 +02:00 [Information] Executing endpoint '"/Account/Register"'
+2023-09-16 20:07:25.945 +02:00 [Information] Route matched with "{page = \"/Account/Register\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Register"
+2023-09-16 20:07:25.946 +02:00 [Information] Executing handler method "Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.RegisterModel.OnGetAsync" - ModelState is Valid
+2023-09-16 20:07:25.946 +02:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-09-16 20:07:25.946 +02:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-09-16 20:07:25.946 +02:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-09-16 20:07:25.949 +02:00 [Information] Executed page "/Account/Register" in 3.5897ms
+2023-09-16 20:07:25.949 +02:00 [Information] Executed endpoint '"/Account/Register"'
+2023-09-16 20:07:25.949 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/Identity/Account/Register - - - 200 - text/html;+charset=utf-8 4.5414ms
+2023-09-16 20:14:31.051 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:7250/Identity/Account/Register application/x-www-form-urlencoded 297
+2023-09-16 20:14:31.053 +02:00 [Information] Executing endpoint '"/Account/Register"'
+2023-09-16 20:14:31.054 +02:00 [Information] Route matched with "{page = \"/Account/Register\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Register"
+2023-09-16 20:14:31.073 +02:00 [Information] Executing handler method "Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.RegisterModel.OnPostAsync" - ModelState is Valid
+2023-09-16 20:14:31.252 +02:00 [Information] User created a new account with password.
+2023-09-16 20:14:31.272 +02:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2023-09-16 20:14:31.272 +02:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.LocalRedirectResult".
+2023-09-16 20:14:31.272 +02:00 [Information] Executing LocalRedirectResult, redirecting to "/".
+2023-09-16 20:14:31.273 +02:00 [Information] Executed page "/Account/Register" in 218.7575ms
+2023-09-16 20:14:31.273 +02:00 [Information] Executed endpoint '"/Account/Register"'
+2023-09-16 20:14:31.274 +02:00 [Information] Request finished HTTP/1.1 POST https://localhost:7250/Identity/Account/Register application/x-www-form-urlencoded 297 - 302 0 - 222.3290ms
+2023-09-16 20:14:31.275 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:7250/ - -
+2023-09-16 20:14:31.277 +02:00 [Information] Executing endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 20:14:31.277 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MyShop.Controllers.HomeController" ("MyShop").
+2023-09-16 20:14:31.277 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-09-16 20:14:31.278 +02:00 [Information] Executed ViewResult - view "Index" executed in 1.4158ms.
+2023-09-16 20:14:31.278 +02:00 [Information] Executed action "MyShop.Controllers.HomeController.Index (MyShop)" in 1.4985ms
+2023-09-16 20:14:31.278 +02:00 [Information] Executed endpoint '"MyShop.Controllers.HomeController.Index (MyShop)"'
+2023-09-16 20:14:31.278 +02:00 [Information] Request finished HTTP/1.1 GET https://localhost:7250/ - - - 200 - text/html;+charset=utf-8 3.0295ms
